@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2348C67E1CB625CD00968873 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2348C67D1CB625CD00968873 /* main.m */; };
+		2348C6811CB625CD00968873 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2348C6801CB625CD00968873 /* AppDelegate.m */; };
+		2348C6871CB625CD00968873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2348C6851CB625CD00968873 /* Main.storyboard */; };
+		2348C6891CB625CD00968873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2348C6881CB625CD00968873 /* Assets.xcassets */; };
+		2348C68C1CB625CE00968873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2348C68A1CB625CE00968873 /* LaunchScreen.storyboard */; };
+		2348C6971CB625CE00968873 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2348C6961CB625CE00968873 /* _______Tests.m */; };
+		2348C6A21CB625CE00968873 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2348C6A11CB625CE00968873 /* _______UITests.m */; };
+		2348C6B71CB6373A00968873 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2348C6B51CB6373A00968873 /* HomeViewController.m */; };
+		2348C6B81CB6373A00968873 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2348C6B61CB6373A00968873 /* HomeViewController.xib */; };
+		2348C6BB1CB63B1200968873 /* ClickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2348C6BA1CB63B1200968873 /* ClickViewController.m */; };
+		2348C6BE1CB64A2C00968873 /* HomeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2348C6BD1CB64A2C00968873 /* HomeScrollView.m */; };
+		2348C6C21CB655ED00968873 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2348C6C11CB655ED00968873 /* HomeModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2348C6931CB625CE00968873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2348C6711CB625CD00968873 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2348C6781CB625CD00968873;
+			remoteInfo = "支付宝首页效果";
+		};
+		2348C69E1CB625CE00968873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2348C6711CB625CD00968873 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2348C6781CB625CD00968873;
+			remoteInfo = "支付宝首页效果";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2348C6791CB625CD00968873 /* 支付宝首页效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "支付宝首页效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2348C67D1CB625CD00968873 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2348C67F1CB625CD00968873 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		2348C6801CB625CD00968873 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		2348C6861CB625CD00968873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2348C6881CB625CD00968873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		2348C68B1CB625CE00968873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2348C68D1CB625CE00968873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		2348C6921CB625CE00968873 /* 支付宝首页效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "支付宝首页效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2348C6961CB625CE00968873 /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		2348C6981CB625CE00968873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2348C69D1CB625CE00968873 /* 支付宝首页效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "支付宝首页效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2348C6A11CB625CE00968873 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
+		2348C6A31CB625CE00968873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2348C6B41CB6373A00968873 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		2348C6B51CB6373A00968873 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		2348C6B61CB6373A00968873 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		2348C6B91CB63B1200968873 /* ClickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickViewController.h; sourceTree = "<group>"; };
+		2348C6BA1CB63B1200968873 /* ClickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickViewController.m; sourceTree = "<group>"; };
+		2348C6BC1CB64A2C00968873 /* HomeScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScrollView.h; sourceTree = "<group>"; };
+		2348C6BD1CB64A2C00968873 /* HomeScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScrollView.m; sourceTree = "<group>"; };
+		2348C6C01CB655ED00968873 /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		2348C6C11CB655ED00968873 /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2348C6761CB625CD00968873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2348C68F1CB625CE00968873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2348C69A1CB625CE00968873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2348C6701CB625CD00968873 = {
+			isa = PBXGroup;
+			children = (
+				2348C67B1CB625CD00968873 /* 支付宝首页效果 */,
+				2348C6951CB625CE00968873 /* 支付宝首页效果Tests */,
+				2348C6A01CB625CE00968873 /* 支付宝首页效果UITests */,
+				2348C67A1CB625CD00968873 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2348C67A1CB625CD00968873 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2348C6791CB625CD00968873 /* 支付宝首页效果.app */,
+				2348C6921CB625CE00968873 /* 支付宝首页效果Tests.xctest */,
+				2348C69D1CB625CE00968873 /* 支付宝首页效果UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2348C67B1CB625CD00968873 /* 支付宝首页效果 */ = {
+			isa = PBXGroup;
+			children = (
+				2348C6AF1CB6363000968873 /* home */,
+				2348C6B01CB6365700968873 /* other */,
+				2348C67C1CB625CD00968873 /* Supporting Files */,
+			);
+			path = "支付宝首页效果";
+			sourceTree = "<group>";
+		};
+		2348C67C1CB625CD00968873 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2348C67D1CB625CD00968873 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2348C6951CB625CE00968873 /* 支付宝首页效果Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2348C6961CB625CE00968873 /* _______Tests.m */,
+				2348C6981CB625CE00968873 /* Info.plist */,
+			);
+			path = "支付宝首页效果Tests";
+			sourceTree = "<group>";
+		};
+		2348C6A01CB625CE00968873 /* 支付宝首页效果UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2348C6A11CB625CE00968873 /* _______UITests.m */,
+				2348C6A31CB625CE00968873 /* Info.plist */,
+			);
+			path = "支付宝首页效果UITests";
+			sourceTree = "<group>";
+		};
+		2348C6AF1CB6363000968873 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				2348C6B11CB636E800968873 /* controller */,
+				2348C6B31CB636E800968873 /* view */,
+				2348C6BF1CB655BF00968873 /* model */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		2348C6B01CB6365700968873 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				2348C67F1CB625CD00968873 /* AppDelegate.h */,
+				2348C6801CB625CD00968873 /* AppDelegate.m */,
+				2348C6851CB625CD00968873 /* Main.storyboard */,
+				2348C6881CB625CD00968873 /* Assets.xcassets */,
+				2348C68A1CB625CE00968873 /* LaunchScreen.storyboard */,
+				2348C68D1CB625CE00968873 /* Info.plist */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		2348C6B11CB636E800968873 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				2348C6B41CB6373A00968873 /* HomeViewController.h */,
+				2348C6B51CB6373A00968873 /* HomeViewController.m */,
+				2348C6B61CB6373A00968873 /* HomeViewController.xib */,
+				2348C6B91CB63B1200968873 /* ClickViewController.h */,
+				2348C6BA1CB63B1200968873 /* ClickViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		2348C6B31CB636E800968873 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2348C6BC1CB64A2C00968873 /* HomeScrollView.h */,
+				2348C6BD1CB64A2C00968873 /* HomeScrollView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2348C6BF1CB655BF00968873 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				2348C6C01CB655ED00968873 /* HomeModel.h */,
+				2348C6C11CB655ED00968873 /* HomeModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2348C6781CB625CD00968873 /* 支付宝首页效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2348C6A61CB625CE00968873 /* Build configuration list for PBXNativeTarget "支付宝首页效果" */;
+			buildPhases = (
+				2348C6751CB625CD00968873 /* Sources */,
+				2348C6761CB625CD00968873 /* Frameworks */,
+				2348C6771CB625CD00968873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "支付宝首页效果";
+			productName = "支付宝首页效果";
+			productReference = 2348C6791CB625CD00968873 /* 支付宝首页效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2348C6911CB625CE00968873 /* 支付宝首页效果Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2348C6A91CB625CE00968873 /* Build configuration list for PBXNativeTarget "支付宝首页效果Tests" */;
+			buildPhases = (
+				2348C68E1CB625CE00968873 /* Sources */,
+				2348C68F1CB625CE00968873 /* Frameworks */,
+				2348C6901CB625CE00968873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2348C6941CB625CE00968873 /* PBXTargetDependency */,
+			);
+			name = "支付宝首页效果Tests";
+			productName = "支付宝首页效果Tests";
+			productReference = 2348C6921CB625CE00968873 /* 支付宝首页效果Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2348C69C1CB625CE00968873 /* 支付宝首页效果UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2348C6AC1CB625CE00968873 /* Build configuration list for PBXNativeTarget "支付宝首页效果UITests" */;
+			buildPhases = (
+				2348C6991CB625CE00968873 /* Sources */,
+				2348C69A1CB625CE00968873 /* Frameworks */,
+				2348C69B1CB625CE00968873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2348C69F1CB625CE00968873 /* PBXTargetDependency */,
+			);
+			name = "支付宝首页效果UITests";
+			productName = "支付宝首页效果UITests";
+			productReference = 2348C69D1CB625CE00968873 /* 支付宝首页效果UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2348C6711CB625CD00968873 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = daishang;
+				TargetAttributes = {
+					2348C6781CB625CD00968873 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = P9SC55FJ7W;
+					};
+					2348C6911CB625CE00968873 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = P9SC55FJ7W;
+						TestTargetID = 2348C6781CB625CD00968873;
+					};
+					2348C69C1CB625CE00968873 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = P9SC55FJ7W;
+						TestTargetID = 2348C6781CB625CD00968873;
+					};
+				};
+			};
+			buildConfigurationList = 2348C6741CB625CD00968873 /* Build configuration list for PBXProject "支付宝首页效果" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2348C6701CB625CD00968873;
+			productRefGroup = 2348C67A1CB625CD00968873 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2348C6781CB625CD00968873 /* 支付宝首页效果 */,
+				2348C6911CB625CE00968873 /* 支付宝首页效果Tests */,
+				2348C69C1CB625CE00968873 /* 支付宝首页效果UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2348C6771CB625CD00968873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2348C68C1CB625CE00968873 /* LaunchScreen.storyboard in Resources */,
+				2348C6891CB625CD00968873 /* Assets.xcassets in Resources */,
+				2348C6871CB625CD00968873 /* Main.storyboard in Resources */,
+				2348C6B81CB6373A00968873 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2348C6901CB625CE00968873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2348C69B1CB625CE00968873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2348C6751CB625CD00968873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2348C6811CB625CD00968873 /* AppDelegate.m in Sources */,
+				2348C6BB1CB63B1200968873 /* ClickViewController.m in Sources */,
+				2348C6C21CB655ED00968873 /* HomeModel.m in Sources */,
+				2348C6BE1CB64A2C00968873 /* HomeScrollView.m in Sources */,
+				2348C67E1CB625CD00968873 /* main.m in Sources */,
+				2348C6B71CB6373A00968873 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2348C68E1CB625CE00968873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2348C6971CB625CE00968873 /* _______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2348C6991CB625CE00968873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2348C6A21CB625CE00968873 /* _______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2348C6941CB625CE00968873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2348C6781CB625CD00968873 /* 支付宝首页效果 */;
+			targetProxy = 2348C6931CB625CE00968873 /* PBXContainerItemProxy */;
+		};
+		2348C69F1CB625CE00968873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2348C6781CB625CD00968873 /* 支付宝首页效果 */;
+			targetProxy = 2348C69E1CB625CE00968873 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2348C6851CB625CD00968873 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2348C6861CB625CD00968873 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2348C68A1CB625CE00968873 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2348C68B1CB625CE00968873 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2348C6A41CB625CE00968873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2348C6A51CB625CE00968873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2348C6A71CB625CE00968873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "支付宝首页效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "daishang.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2348C6A81CB625CE00968873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "支付宝首页效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "daishang.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2348C6AA1CB625CE00968873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "支付宝首页效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "daishang.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/支付宝首页效果.app/支付宝首页效果";
+			};
+			name = Debug;
+		};
+		2348C6AB1CB625CE00968873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "支付宝首页效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "daishang.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/支付宝首页效果.app/支付宝首页效果";
+			};
+			name = Release;
+		};
+		2348C6AD1CB625CE00968873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "支付宝首页效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "daishang.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "支付宝首页效果";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2348C6AE1CB625CE00968873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "支付宝首页效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "daishang.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "支付宝首页效果";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2348C6741CB625CD00968873 /* Build configuration list for PBXProject "支付宝首页效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2348C6A41CB625CE00968873 /* Debug */,
+				2348C6A51CB625CE00968873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2348C6A61CB625CE00968873 /* Build configuration list for PBXNativeTarget "支付宝首页效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2348C6A71CB625CE00968873 /* Debug */,
+				2348C6A81CB625CE00968873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2348C6A91CB625CE00968873 /* Build configuration list for PBXNativeTarget "支付宝首页效果Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2348C6AA1CB625CE00968873 /* Debug */,
+				2348C6AB1CB625CE00968873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2348C6AC1CB625CE00968873 /* Build configuration list for PBXNativeTarget "支付宝首页效果UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2348C6AD1CB625CE00968873 /* Debug */,
+				2348C6AE1CB625CE00968873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2348C6711CB625CD00968873 /* Project object */;
+}
